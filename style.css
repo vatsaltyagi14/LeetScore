@@ -64,6 +64,7 @@ body{
     columns: white;
     font-weight: 700;
     background: conic-gradient(#299f5d var(--progress-degree,0%),yellow 0%);
+    flex-direction: column;
 }
 
 .circle span{
@@ -77,4 +78,12 @@ body{
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.card{
+    background-color: chocolate;
+    width: 250px;
+    max-width: 290px;
+    padding: 20px;
+    border-radius: 10px;
 }
