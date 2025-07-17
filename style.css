@@ -63,7 +63,7 @@ body{
     font-size: 16px;
     columns: white;
     font-weight: 700;
-    background: conic-gradient(#299f5d var(--progress-degree,0%),yellow 0%);
+    background: conic-gradient(#299f5d var(--progress-degree,0%),yellow 0%); /* yehi hai important, keeps a var jiski value ham js mai change krenge*/
     flex-direction: column;
 }
 
@@ -82,8 +82,14 @@ body{
 
 .card{
     background-color: chocolate;
-    width: 250px;
+    width: 210px;
     max-width: 290px;
     padding: 20px;
     border-radius: 10px;
+}
+
+.statcard{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
 }

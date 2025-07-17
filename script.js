@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded",function(){ //jab sara DOM content 
                 total += submissionCalendar[timestamp]; 
             }
         }
-        cardstatscontainer.innerHTML = `<h3 class ="card">Total Submissions: ${total}</h3>`;
+        cardstatscontainer.innerHTML = `<h3 class ="card">Total Submissions:${total}</h3>`;
     }
 
 
